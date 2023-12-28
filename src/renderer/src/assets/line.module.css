@@ -1,0 +1,24 @@
+body {
+  margin: 5px;
+  overflow: hidden;
+}
+
+.mainDiv {
+  display: flex;
+  font-family: 'Noto Sans Mono';
+  width: 100%;
+}
+
+.number {
+  margin-right: 5px;
+}
+
+textarea {
+  font-family: 'Noto Sans';
+  outline: 0;
+  box-sizing: border-box;
+  resize: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
