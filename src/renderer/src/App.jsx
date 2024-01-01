@@ -1,11 +1,14 @@
-import Line from './components/Line'
+/* eslint-disable prettier/prettier */
+import TextArea from "./components/TextArea.jsx"
+import Title from "./components/Title.jsx"
+import TopBar from "./components/TopBar.jsx"
 
 export default function App() {
+
   return (
     <>
-      <Line />
-      <Line />
-      <Line />
+      <TopBar />
+      <TextArea></TextArea>
     </>
   )
 }

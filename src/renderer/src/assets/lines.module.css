@@ -1,0 +1,52 @@
+.textArea {
+  text-align: justify;
+  word-break: break-word;
+  overflow: auto;
+  height: 95vh;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #20241c;
+  font-weight: 300;
+  color: rgb(228, 238, 220);
+  background-color: none;
+  display: flex;
+  font-size: 16px;
+  font-family: 'Noto Sans';
+  border: 0;
+  outline: 0;
+  width: 100%;
+  resize: none;
+  margin: 0;
+  margin-top: 16px;
+  padding: 10px 30px;
+  transition: background-color .1s ease;
+}
+
+.preview {
+  text-align: justify;
+  word-break: break-word;
+  overflow: auto;
+  height: 100vh;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #20241c;
+  font-weight: 300;
+  color: rgb(228, 238, 220);
+  background-color: none;
+  display: flex;
+  font-size: 16px;
+  font-family: 'Noto Sans';
+  border: 0;
+  outline: 0;
+  width: 100%;
+  resize: none;
+  margin: 0;
+  padding: 10px 30px;
+  transition: background-color .1s ease;
+}
+
+.preview code {
+  white-space: pre-wrap !important;
+  word-break: break-word;
+  font-family: 'Noto Sans Mono';
+}

@@ -1,0 +1,19 @@
+.titleArea {
+    background-color: #20241c;
+    box-sizing: border-box;
+    margin-left: 10px;
+    font-weight: 600;
+    color: rgb(228, 238, 220);
+    border-radius: 10px;
+    background-color: none;
+    display: flex;
+    font-size: 26px;
+    font-family: 'Noto Sans';
+    border: 0;
+    outline: 0;
+    width: 100%;
+    resize: none;
+    margin: 0;
+    padding: 7.5px 10px;
+    transition: background-color .1s ease;
+}

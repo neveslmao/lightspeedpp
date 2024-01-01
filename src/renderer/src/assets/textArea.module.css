@@ -1,0 +1,27 @@
+:root {
+    background-color: #20241c
+}
+
+body {
+    margin: 0px;
+    margin-top: 35px;
+}
+
+.numbersDiv {
+    margin-top: 70px;
+    flex-direction: column;
+    display: flex;
+    text-align: right;
+    font-family: 'Noto Sans Mono';
+}
+
+.mainDiv {
+    margin-top: 0;
+    display: flex;
+}
+
+.linesDiv {
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+}

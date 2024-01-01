@@ -1,0 +1,111 @@
+.mainDiv {
+    z-index: 10;
+    background-color: #383C34;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    -webkit-app-region: drag;
+    color: white;
+    align-content: end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.settings {
+    opacity: 50%;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-app-region: no-drag;
+    font-variation-settings: 'wght' 200, 'FILL' 1;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 5px;
+    transition: background-color .1s ease;
+}
+
+.settings:hover {
+    background-color: rgba(104, 116, 77, 0.363);
+}
+
+.edit {
+    opacity: 50%;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-app-region: no-drag;
+    font-variation-settings: 'wght' 900, 'FILL' 1, 'opsz' 48;
+    cursor: pointer;
+    font-size: 22px;
+    padding: 5px;
+    transition: background-color .1s ease;
+}
+
+.edit:hover {
+    background-color: rgba(104, 116, 77, 0.363);
+}
+
+.minimize {
+    opacity: 50%;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-app-region: no-drag;
+    font-variation-settings: 'wght' 100;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 5px 15px;
+    transition: background-color .1s ease;
+}
+
+
+.minimize:hover {
+    background-color: rgba(104, 116, 77, 0.363);
+}
+
+.maximize {
+    opacity: 50%;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-app-region: no-drag;
+    font-variation-settings: 'wght' 100;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 6px 16px;
+    transition: background-color .1s ease;
+}
+
+.maximize:hover {
+    background-color: rgba(104, 116, 77, 0.363);
+}
+
+.close {
+    opacity: 50%;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-app-region: no-drag;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-variation-settings: 'wght' 100;
+    font-size: 24px;
+    transition: background-color .1s ease;
+}
+
+.close:hover {
+    background-color: rgb(156, 50, 50);
+}
+
+.name {
+    opacity: 50%;
+    -webkit-user-select: none;
+    user-select: none;
+    font-weight: 100;
+    margin-left: 15px;
+    padding-right: 5px;
+    font-family: 'Noto Sans';
+    transition: font-weight .1s ease;
+}
+
+.sep {
+    -webkit-app-region: drag;
+    width: 100%;
+}
